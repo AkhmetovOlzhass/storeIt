@@ -1,47 +1,47 @@
 # 📁 Google Drive Clone  
 
-Google Drive Clone – это веб-приложение для хранения и управления файлами, разработанное на **Next.js** с **Appwrite** в качестве бэкенда.  
+Google Drive Clone is a **web application** for file storage and management, built with **Next.js** and **Appwrite** as the backend.  
 
-## 🚀 Стек технологий  
+## 🚀 Tech Stack  
 - **Frontend:** Next.js (TypeScript), ShadCN, Tailwind CSS  
 - **Backend:** Appwrite (Auth, Storage, Database)  
-- **Дополнительно:** Zustand (состояние), React Query (запросы), Upload API  
+- **Additional:** Zustand (state management), React Query (data fetching), Upload API  
 
-## 🎯 Функционал  
-✅ Авторизация и регистрация через Appwrite  
-✅ Загрузка файлов в облако  
-✅ Создание папок и управление файлами  
-✅ Просмотр, скачивание и удаление файлов  
-✅ Древовидная структура файлов  
-✅ Drag & Drop для перемещения файлов  
+## 🎯 Features  
+✅ Authentication and registration via Appwrite  
+✅ File upload to the cloud  
+✅ Folder creation and file management  
+✅ File preview, download, and deletion  
+✅ Tree structure for file organization  
+✅ Drag & Drop for file movement  
 
-## 🛠 Установка и запуск  
-1️⃣ Клонируй репозиторий  
+## 🛠 Installation & Setup  
+1️⃣ **Clone the repository**  
 ```bash
 git clone https://github.com/AkhmetovOlzhass/storeIt.git
 cd storeIt
 ```
 
-2️⃣ Установи зависимости
+2️⃣ **Install dependencies**
 ```bash
 npm install
 ```
 
-3️⃣ Настрой Appwrite и создай .env файл
+3️⃣ **Configure Appwrite and create a .env file**
 ```env
 NEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id  
 NEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1  
 NEXT_PUBLIC_APPWRITE_STORAGE_BUCKET=your_bucket_id
 ```
 
-4️⃣ Запусти проект
+4️⃣ **Run the project**
 ```bash
 npm run dev
 ```
 
-## 🔗 Ссылки
-📜 Документация Appwrite: appwrite.io/docs
+## 🔗 Useful Links
+📜 Appwrite Documentation: appwrite.io/docs
 
-📩 Связь: @Shakarymm
+📩 Contact: @Shakarymm
 
-🚀 Разработка в процессе – добавляются новые фичи!
+🚀 Development in progress – new features coming soon!
