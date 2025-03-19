@@ -22,15 +22,18 @@ git clone https://github.com/AkhmetovOlzhass/storeIt.git
 cd storeIt```
 
 2️⃣ Установи зависимости
-```npm install```
+```bash
+npm install```
 
 3️⃣ Настрой Appwrite и создай .env файл
-```NEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id  
+```env
+NEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id  
 NEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1  
 NEXT_PUBLIC_APPWRITE_STORAGE_BUCKET=your_bucket_id```
 
 4️⃣ Запусти проект
-```npm run dev ```
+```bash
+npm run dev ```
 
 ## 🔗 Ссылки
 📜 Документация Appwrite: appwrite.io/docs
