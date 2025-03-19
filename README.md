@@ -19,18 +19,18 @@ Google Drive Clone – это веб-приложение для хранени�
 1️⃣ Клонируй репозиторий  
 ```bash
 git clone https://github.com/AkhmetovOlzhass/storeIt.git
-cd storeIt
+cd storeIt```
 
 2️⃣ Установи зависимости
-npm install
+```npm install```
 
 3️⃣ Настрой Appwrite и создай .env файл
-NEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id  
+```NEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id  
 NEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1  
-NEXT_PUBLIC_APPWRITE_STORAGE_BUCKET=your_bucket_id
+NEXT_PUBLIC_APPWRITE_STORAGE_BUCKET=your_bucket_id```
 
 4️⃣ Запусти проект
-npm run dev  
+```npm run dev ```
 
 ## 🔗 Ссылки
 📜 Документация Appwrite: appwrite.io/docs
